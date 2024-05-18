@@ -1,0 +1,117 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-05-15 23:04:13.294763",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "gym_name",
+  "address",
+  "total_locker",
+  "column_break_sulo",
+  "premium_membership_amount",
+  "basic_membership_amount",
+  "other_membership_amount",
+  "contact_detail_section",
+  "email",
+  "phone_number"
+ ],
+ "fields": [
+  {
+   "fieldname": "gym_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Gym Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address",
+   "reqd": 1
+  },
+  {
+   "fieldname": "contact_detail_section",
+   "fieldtype": "Section Break",
+   "label": "Contact Detail"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email",
+   "options": "Email",
+   "reqd": 1
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Phone",
+   "label": "Phone Number"
+  },
+  {
+   "fieldname": "column_break_sulo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "premium_membership_amount",
+   "fieldtype": "Currency",
+   "label": "Premium Membership Amount",
+   "non_negative": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "basic_membership_amount",
+   "fieldtype": "Currency",
+   "label": "Basic Membership Amount",
+   "non_negative": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "other_membership_amount",
+   "fieldtype": "Currency",
+   "label": "Other Membership Amount",
+   "non_negative": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "total_locker",
+   "fieldtype": "Int",
+   "label": "Total Locker",
+   "non_negative": 1,
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-05-18 12:40:30.511252",
+ "modified_by": "Administrator",
+ "module": "Gym Management System",
+ "name": "Gym Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "Gym Admin",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

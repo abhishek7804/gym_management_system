@@ -1,0 +1,33 @@
+<style>
+    .price-label {
+        font-weight: bold;
+        color: #333;
+    }
+    .feature-label {
+        background-color: #f0f0f0;
+        border-radius: 4px;
+        padding: 2px 4px;
+        margin-left: 5px;
+        font-size: 90%;
+    }
+    .with-locker {
+        color: #007bff; /* Blue color for locker */
+    }
+    .with-trainer {
+        color: #28a745; /* Green color for trainer */
+    }
+</style>
+
+<div>
+    <a href="{{ doc.route }}">{{ doc.title or doc.name }}</a>
+    <div>
+        <span class="price-label">Price: {{ doc.price }}</span>
+        {% if doc.with_locker %}
+            <span class="feature-label with-locker">With Locker</span>
+        {% endif %}
+        {% if doc.with_trainer %}
+            <span class="feature-label with-trainer">With Trainer</span>
+        {% endif %}
+    </div>
+	<br>
+</div>

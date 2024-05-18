@@ -1,0 +1,28 @@
+{% extends "templates/web.html" %}
+
+{% block page_styles %}
+<style>
+    /* Define your CSS styles here */
+    h1 {
+        color: #333;
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    h3 {
+        color: #666;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+</style>
+{% endblock %}
+
+{% block page_content %}
+<h1>{{ title }}</h1>
+{% for data in doc.exercise_list %}
+<div class="exercise">
+    <h3>Exercise Name: {{ data.exercise_name }}</h3>
+    <p>Sets: {{ data.sets }}</p>
+    <p>Reps: {{ data.reps }}</p>
+</div>
+{% endfor %}
+{% endblock %}

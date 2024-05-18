@@ -1,0 +1,72 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-05-16 10:47:08.426887",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "date",
+  "weight",
+  "calories_intake",
+  "exercise_duration",
+  "column_break_pwyu",
+  "body_fat"
+ ],
+ "fields": [
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "weight",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Weight In Kg",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "calories_intake",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Calories Intake"
+  },
+  {
+   "fieldname": "exercise_duration",
+   "fieldtype": "Duration",
+   "label": "Exercise Duration"
+  },
+  {
+   "fieldname": "column_break_pwyu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "body_fat",
+   "fieldtype": "Percent",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Body Fat"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-05-16 12:21:57.257862",
+ "modified_by": "Administrator",
+ "module": "Gym Management System",
+ "name": "Fitness Log",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -112,7 +112,11 @@ app_license = "MIT"
 
 # Scheduled Tasks
 # ---------------
-
+scheduler_events = {
+    "daily" : [
+        "gym_management_system.gym_management_system.doctype.gym_membership.gym_membership.check_active_membership"
+    ]
+}
 # scheduler_events = {
 #	"all": [
 #		"gym_management_system.tasks.all"

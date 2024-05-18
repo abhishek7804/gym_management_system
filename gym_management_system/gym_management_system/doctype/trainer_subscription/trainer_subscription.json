@@ -1,0 +1,72 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-05-16 12:38:04.582930",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "subscription_plan",
+  "subscription_type",
+  "start_date",
+  "rating",
+  "amount"
+ ],
+ "fields": [
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Start Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "subscription_plan",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Subscription Plan",
+   "options": "Weekly\nMonthly\nYearly",
+   "reqd": 1
+  },
+  {
+   "default": "5",
+   "fieldname": "rating",
+   "fieldtype": "Rating",
+   "label": "Rating"
+  },
+  {
+   "default": "0",
+   "fetch_from": "subscription_type.price",
+   "fieldname": "amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Amount",
+   "non_negative": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "subscription_type",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Subscription Type",
+   "options": "Subscription Type",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-05-16 18:48:08.884964",
+ "modified_by": "Administrator",
+ "module": "Gym Management System",
+ "name": "Trainer Subscription",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

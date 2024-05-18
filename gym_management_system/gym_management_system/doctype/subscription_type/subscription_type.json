@@ -1,0 +1,154 @@
+{
+ "actions": [],
+ "allow_guest_to_view": 1,
+ "allow_rename": 1,
+ "autoname": "prompt",
+ "creation": "2024-05-16 12:44:21.444194",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "enable",
+  "with_locker",
+  "with_trainer",
+  "price",
+  "description",
+  "column_break_csob",
+  "publish",
+  "route",
+  "trainer_subscription_plan_section",
+  "subscription_plan",
+  "machines_section",
+  "machines"
+ ],
+ "fields": [
+  {
+   "default": "1",
+   "fieldname": "enable",
+   "fieldtype": "Check",
+   "label": "Enable"
+  },
+  {
+   "default": "0",
+   "fieldname": "with_locker",
+   "fieldtype": "Check",
+   "label": "With Locker"
+  },
+  {
+   "default": "0",
+   "fieldname": "with_trainer",
+   "fieldtype": "Check",
+   "label": "With Trainer"
+  },
+  {
+   "default": "0",
+   "fieldname": "price",
+   "fieldtype": "Currency",
+   "label": "Price"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "trainer_subscription_plan_section",
+   "fieldtype": "Section Break",
+   "label": "Trainer Subscription Plan"
+  },
+  {
+   "default": "Weekly",
+   "fieldname": "subscription_plan",
+   "fieldtype": "Select",
+   "label": "Subscription Plan",
+   "non_negative": 1,
+   "options": "Weekly\nMonthly\nYearly"
+  },
+  {
+   "fieldname": "machines_section",
+   "fieldtype": "Section Break",
+   "label": "Machines"
+  },
+  {
+   "fieldname": "machines",
+   "fieldtype": "Table",
+   "label": "Machines Booked with Locker",
+   "options": "Machines"
+  },
+  {
+   "fieldname": "column_break_csob",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "publish",
+   "fieldtype": "Check",
+   "label": "Publish"
+  },
+  {
+   "fieldname": "route",
+   "fieldtype": "Data",
+   "label": "Route",
+   "read_only": 1
+  }
+ ],
+ "has_web_view": 1,
+ "index_web_pages_for_search": 1,
+ "is_published_field": "publish",
+ "links": [],
+ "modified": "2024-05-17 23:58:38.841637",
+ "modified_by": "Administrator",
+ "module": "Gym Management System",
+ "name": "Subscription Type",
+ "naming_rule": "Set by user",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Gym Admin",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Gym Member",
+   "select": 1,
+   "share": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Gym Trainer",
+   "select": 1,
+   "share": 1
+  }
+ ],
+ "route": "Subscription Plan",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

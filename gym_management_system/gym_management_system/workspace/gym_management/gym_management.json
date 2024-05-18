@@ -1,0 +1,169 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"0brF7YHxsP\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Gym Management</span>\",\"col\":12}},{\"id\":\"XCmstHB10X\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gym Members\",\"col\":3}},{\"id\":\"FeAj6eOG1G\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gym Memberships\",\"col\":3}},{\"id\":\"R2icS0ipXC\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gym Class Bookings\",\"col\":3}},{\"id\":\"o_devvmg2a\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gym Locker Bookings\",\"col\":3}},{\"id\":\"ITgUXAwaWs\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gym Trainers\",\"col\":3}},{\"id\":\"b0xdC1pNpY\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Reports and Masters</b></span>\",\"col\":12}},{\"id\":\"7I3JrZ7Ko1\",\"type\":\"card\",\"data\":{\"card_name\":\"Masters\",\"col\":4}},{\"id\":\"yUCnFk-5PW\",\"type\":\"card\",\"data\":{\"card_name\":\"Reports\",\"col\":4}}]",
+ "creation": "2024-05-18 10:21:56.153467",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "folder-normal",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Gym Management",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Masters",
+   "link_count": 5,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Gym Class",
+   "link_count": 0,
+   "link_to": "Gym Class",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Subscription Type",
+   "link_count": 0,
+   "link_to": "Subscription Type",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Gym Workout Plan",
+   "link_count": 0,
+   "link_to": "Gym Workout Plan",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Gym Settings",
+   "link_count": 0,
+   "link_to": "Gym Settings",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Gym Trainer Subscription",
+   "link_count": 0,
+   "link_to": "Gym Trainer Subscription",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Reports",
+   "link_count": 3,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Gym Revenue",
+   "link_count": 0,
+   "link_to": "Revenue",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Member Tracking",
+   "link_count": 0,
+   "link_to": "Member Tracking",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Class Popularity",
+   "link_count": 0,
+   "link_to": "Class Popularity",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2024-05-18 12:27:40.923691",
+ "modified_by": "Administrator",
+ "module": "Gym Management System",
+ "name": "Gym Management",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 28.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Gym Members",
+   "link_to": "Gym Member",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Gym Memberships",
+   "link_to": "Gym Membership",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Gym Class Bookings",
+   "link_to": "Gym Class Booking",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Gym Locker Bookings",
+   "link_to": "Gym Locker Booking",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Gym Trainers",
+   "link_to": "Gym Trainer",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Gym Management"
+}

@@ -1,0 +1,49 @@
+{% extends "templates/web.html" %}
+
+{% block page_content %}
+<h1>Plan : {{ title }}</h1>
+
+<div>
+    <p><strong>Price:</strong> {{ doc.price }}</p>
+    {% if doc.with_locker %}
+        <p class="feature-label with-locker">With Locker</p>
+    {% endif %}
+    {% if doc.with_trainer %}
+        <p class="feature-label with-trainer">With Trainer</p>
+    {% endif %}
+</div>
+
+<h2>Machines</h2>
+{% for machine in machines %}
+<div class="machine">
+    <h5>{{ machine.machine }}</h5>
+</div>
+{% endfor %}
+{% endblock %}
+
+<style>
+    .price-label {
+        font-weight: bold;
+        color: #333;
+    }
+    .feature-label {
+        background-color: #f0f0f0;
+        border-radius: 4px;
+        padding: 2px 4px;
+        margin-left: 5px;
+        font-size: 90%;
+    }
+    .with-locker {
+        color: #007bff; /* Blue color for locker */
+    }
+    .with-trainer {
+        color: #28a745; /* Green color for trainer */
+    }
+    .machine {
+        margin-bottom: 15px;
+    }
+    .machine h3 {
+        font-size: 18px;
+        color: #444;
+    }
+</style>
