@@ -203,3 +203,19 @@ scheduler_events = {
 # auth_hooks = [
 #	"gym_management_system.auth.validate"
 # ]
+
+fixtures = [
+            {
+                "doctype":"Role",
+                "filters":[
+                    [
+                        "name","in",
+                        [
+                        "Gym Trainer",
+                        "Gym Member",
+                        "Gym Admin"
+                        ]
+                    ]
+                ]
+            }
+]
