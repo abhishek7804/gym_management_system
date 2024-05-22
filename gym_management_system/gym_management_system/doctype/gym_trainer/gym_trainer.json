@@ -106,7 +106,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-05-16 23:13:27.135695",
+ "modified": "2024-05-22 12:49:54.668309",
  "modified_by": "Administrator",
  "module": "Gym Management System",
  "name": "Gym Trainer",
@@ -147,6 +147,15 @@
    "select": 1,
    "share": 1,
    "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "report": 1,
+   "role": "Gym Member",
+   "select": 1,
+   "share": 1
   }
  ],
  "sort_field": "modified",

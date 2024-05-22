@@ -138,7 +138,7 @@
    "link_fieldname": "member"
   }
  ],
- "modified": "2024-05-18 12:30:15.418721",
+ "modified": "2024-05-22 12:54:22.618316",
  "modified_by": "Administrator",
  "module": "Gym Management System",
  "name": "Gym Member",
@@ -177,7 +177,8 @@
    "report": 1,
    "role": "Gym Member",
    "select": 1,
-   "share": 1
+   "share": 1,
+   "write": 1
   },
   {
    "email": 1,

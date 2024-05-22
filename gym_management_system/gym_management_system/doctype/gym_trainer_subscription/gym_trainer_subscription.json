@@ -82,7 +82,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-05-16 23:08:56.028935",
+ "modified": "2024-05-22 12:51:38.503745",
  "modified_by": "Administrator",
  "module": "Gym Management System",
  "name": "Gym Trainer Subscription",
@@ -125,6 +125,7 @@
    "report": 1,
    "role": "Gym Member",
    "share": 1,
+   "submit": 1,
    "write": 1
   },
   {
